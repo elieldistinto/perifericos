@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://blog.dataplus.com.br/wp-content/uploads/2019/04/teclado_gamer_jogos_perifericos_games_2019_dataplus_loja_informatica.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; /* Para garantir que o texto fique legível sobre o fundo */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    padding: 20px;
+}
+h1, h3,h4 {
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para destacar o texto */
+    border-radius: 8px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+h3,h4 {
+    font-size: 24px;
+}
