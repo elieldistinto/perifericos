@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("https://www.superprof.pt/blog/wp-content/uploads/2021/08/aprender-programacao.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 52px;
+    color: brown;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    margin-top: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    font-size: 20px;
+    color: #f0f0f0;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    a {
+        font-size: 18px;
+        padding: 8px;
+    }
+} 

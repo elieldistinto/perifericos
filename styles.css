@@ -1,28 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("https://blog.dataplus.com.br/wp-content/uploads/2019/04/teclado_gamer_jogos_perifericos_games_2019_dataplus_loja_informatica.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
-    margin: 30px;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
-    color: white; /* Para garantir que o texto fique legível sobre o fundo */
-    line-height: 1.6; /* Espaçamento entre as linhas */
-    padding: 20px;
-}
-h1, h3,h4 {
-    margin: 0;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para destacar o texto */
-    border-radius: 8px;
-    width: 80%;
-    margin: 50px auto;
+    color: white;
+    line-height: 1.6;
+    min-height: 100vh;
 }
 
-h3,h4 {
-    font-size: 24px;
+.conteudo {
+    background-color: rgba(0, 0, 0, 0.8);
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
 }
 
 h1 {
-    font-size: 36px;
-    color: #73658d;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+}
+
+h3, h4, h5 {
+    margin: 15px 0;
+    color: #ffd700;
+}
+
+.tipos-principais {
+    margin: 30px 0;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.tipo-periferico {
+    margin: 25px 0;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.resumo {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 215, 0, 0.1);
+    border-radius: 8px;
+}
+
+strong {
+    color: #ffd700;
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
 }
